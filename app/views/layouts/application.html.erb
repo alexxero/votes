@@ -37,7 +37,7 @@
 
               <div class="navbar-right navbar-brand">Hello, <%= current_user.email %></div>
             <% else  %>
-                
+
               <%= link_to new_user_session_path do %>
                 <button type="button" class="btn btn-default navbar-btn">Sign In</button>
               <% end  %>
